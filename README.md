@@ -1,1 +1,0 @@
-# wordpress-block-friend
