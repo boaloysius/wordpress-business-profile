@@ -1,0 +1,77 @@
+{
+	"apiVersion": 2,
+	"name": "business-profile/profile",
+	"title": "Business Profile",
+	"category": "media",
+	"icon": "groups",
+	"description": "Business Profile",
+	"keywords": [
+		"Business",
+		"Profile"
+	],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "business-profile",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"name": {
+			"type": "string",
+			"default": "Business Name"
+		},		
+		"facebook": {
+			"type": "string",
+			"default": "https://facebook.com"
+		},
+		"instagram": {
+			"type": "string",
+			"default": "https://instagram.com"
+		},
+		"twitter": {
+			"type": "string",
+			"default": "https://twitter.com"
+		},
+		"linkedin": {
+			"type": "string",
+			"default": "https://linkedin.com"
+		},
+		"youtube": {
+			"type": "string",
+			"default": "https://youtube.com"
+		},
+		"website": {
+			"type": "string",
+			"default": "https://website.com"
+		},
+		"image1": {
+			"type": "string",
+			"default":""
+		},
+		"image2": {
+			"type": "string",
+			"default":""
+		},
+		"image3": {
+			"type": "string",
+			"default":null
+		},
+		"image4": {
+			"type": "string",
+			"default":null
+		},
+		"image5": {
+			"type": "string",
+			"default":null
+		},
+		"description": {
+			"type": "string",
+			"default":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+		},
+		"card_background": {
+			"type": "string",
+			"default":"blue"			
+		}
+	}
+}

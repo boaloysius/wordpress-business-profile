@@ -1,0 +1,55 @@
+.wp-block-business-profile-profile{
+
+	.wp-block-business-profile-profile-social-icons{
+		button span{
+			font-size: 27px;
+			width: auto;
+			height: auto;
+			color: rgb(32, 28, 28);
+		}
+		.is-inactive span{
+			color: gray;
+			display: inline;
+		}		
+	}	
+	.wp-block-business-profile-profile-images{
+		.wp-block-business-profile-profile-image{
+			.dashicons-no-alt{
+				position: absolute;
+				top: 0;
+				right: 0;
+				display: none;
+			}
+			&:hover .dashicons-no-alt{
+				display: block;
+				cursor: pointer;
+			}
+			button{
+				width: 100%;
+				height: 100%;
+				justify-content: center;			
+			}
+		}
+
+	}
+	.wp-block-business-profile-profile-social .components-base-control__field{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 5px;
+		margin-bottom: 0;
+
+		label{
+			margin-bottom: 0;
+			margin-right: 5px;
+			margin-left: 20px;
+		}
+
+		input{
+			background-color: transparent;
+			border: none;
+			outline: none;
+			box-shadow: none;			
+		}
+	}
+}
