@@ -1,7 +1,15 @@
-.wp-block-business-profile-profile{
+.wp-block-business-profile-profiles{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 25px;
+}
+
+.wp-block-business-profiles-profile{
 
 	width: 300px;
 	padding-bottom: 25px;
+	flex-shrink: 0;
 
 	&.is-blue-background{
 		background: linear-gradient(135deg, #13f1fc 0%,#0682e0 100%)

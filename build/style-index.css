@@ -1,71 +1,79 @@
 /*!***************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
-.wp-block-business-profile-profile {
+.wp-block-business-profile-profiles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+
+.wp-block-business-profiles-profile {
   width: 300px;
   padding-bottom: 25px;
+  flex-shrink: 0;
 }
-.wp-block-business-profile-profile.is-blue-background {
+.wp-block-business-profiles-profile.is-blue-background {
   background: linear-gradient(135deg, #13f1fc 0%, #0682e0 100%);
 }
-.wp-block-business-profile-profile.is-lightblue-background {
+.wp-block-business-profiles-profile.is-lightblue-background {
   background: lightblue;
 }
-.wp-block-business-profile-profile.is-pink-background {
+.wp-block-business-profiles-profile.is-pink-background {
   background: linear-gradient(135deg, #FF57B9 0%, #ca25e1 100%);
 }
-.wp-block-business-profile-profile.is-lightpink-background {
+.wp-block-business-profiles-profile.is-lightpink-background {
   background: lightpink;
 }
-.wp-block-business-profile-profile.is-yellow-background {
+.wp-block-business-profiles-profile.is-yellow-background {
   background: linear-gradient(135deg, #f2d50f 0%, #e3542e 100%);
 }
-.wp-block-business-profile-profile.is-lightyellow-background {
+.wp-block-business-profiles-profile.is-lightyellow-background {
   background: lightyellow;
 }
-.wp-block-business-profile-profile.is-green-background {
+.wp-block-business-profiles-profile.is-green-background {
   background: linear-gradient(135deg, #DFEC51 0%, #83b314 100%);
 }
-.wp-block-business-profile-profile.is-lightgreen-background {
+.wp-block-business-profiles-profile.is-lightgreen-background {
   background: lightgreen;
 }
-.wp-block-business-profile-profile.is-gray-background {
+.wp-block-business-profiles-profile.is-gray-background {
   background: linear-gradient(135deg, #e3e3e3 0%, #727b85 100%);
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-name {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-name {
   padding: 20px;
   padding-bottom: 0;
   margin: 0;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-social-icons {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-social-icons {
   display: flex;
   justify-content: left;
   padding: 10px;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-social-icons a {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-social-icons a {
   text-decoration: none;
   padding: 6px;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-social-icons a span {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-social-icons a span {
   font-size: 27px;
   width: auto;
   height: auto;
   color: #201c1c;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-social-icons .is-inactive span {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-social-icons .is-inactive span {
   display: none;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-images {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-images {
   overflow-x: scroll;
   overflow-y: hidden;
   display: flex;
   justify-content: start;
   padding: 10px;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-images::-webkit-scrollbar {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-images::-webkit-scrollbar {
   display: none;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-images .wp-block-business-profile-profile-image {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-images .wp-block-business-profile-profile-image {
   width: 85px;
   height: 85px;
   margin: 2px;
@@ -77,17 +85,17 @@
   border-radius: 15%;
   position: relative;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-images .wp-block-business-profile-profile-image.no-image {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-images .wp-block-business-profile-profile-image.no-image {
   border: 0.1px solid rgba(165, 163, 163, 0.8);
   background: rgba(255, 255, 255, 0.3);
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-images .wp-block-business-profile-profile-image img {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-images .wp-block-business-profile-profile-image img {
   flex-shrink: 0;
   min-width: 100%;
   height: 100%;
   max-width: none;
 }
-.wp-block-business-profile-profile .wp-block-business-profile-profile-description {
+.wp-block-business-profiles-profile .wp-block-business-profile-profile-description {
   margin: 0px 15px 0px 15px;
   padding: 20px;
   font-size: 13px;
