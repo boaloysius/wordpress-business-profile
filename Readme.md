@@ -10,7 +10,7 @@ Business profile is a wordpress plugin written in React to showcase and link com
 - Responsive design for a wide range  of screen sizes
 
 ## To install the plugin, please wordpress interface
-![Installation guide](./assets/installation.jpg?raw=true )
+![Installation guide](assets/installation.png?raw=true )
 ## To build
 
 ```sh
@@ -18,8 +18,5 @@ npm build
 ```
 
 # Design
-Front end
-![Frontend](./assets/frontend.jpg?raw=true )
-
-Backend
-![Backend](./assets/backend.jpg?raw=true )
+Preview
+![Frontend](assets/preview.png?raw=true )
