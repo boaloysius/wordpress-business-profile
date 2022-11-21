@@ -18,5 +18,8 @@ npm build
 ```
 
 # Design
-Preview
-![Frontend](assets/preview.png?raw=true )
+Preview 1
+![Preview 1](assets/preview.png?raw=true )
+
+Preview 2
+![Preview 2](assets/preview1.png?raw=true )
